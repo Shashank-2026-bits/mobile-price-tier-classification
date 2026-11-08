@@ -1,0 +1,61 @@
+{
+  "dataset": "Mobile Price Classification (Kaggle: iabhishekofficial/mobile-price-classification)",
+  "target": "price_range",
+  "features": [
+    "battery_power",
+    "blue",
+    "clock_speed",
+    "dual_sim",
+    "fc",
+    "four_g",
+    "int_memory",
+    "m_dep",
+    "mobile_wt",
+    "n_cores",
+    "pc",
+    "px_height",
+    "px_width",
+    "ram",
+    "sc_h",
+    "sc_w",
+    "talk_time",
+    "three_g",
+    "touch_screen",
+    "wifi"
+  ],
+  "class_names": [
+    "Low cost",
+    "Medium cost",
+    "High cost",
+    "Very high cost"
+  ],
+  "models": {
+    "Logistic Regression": "logistic_regression.pkl",
+    "Decision Tree": "decision_tree.pkl",
+    "KNN": "knn.pkl",
+    "Naive Bayes": "naive_bayes.pkl",
+    "Support Vector Machine": "svm.pkl"
+  },
+  "best_params": {
+    "Logistic Regression": {
+      "C": 100
+    },
+    "Decision Tree": {
+      "max_depth": 6,
+      "min_samples_leaf": 5
+    },
+    "KNN": {
+      "n_neighbors": 31,
+      "weights": "distance"
+    },
+    "Naive Bayes": {
+      "var_smoothing": 1e-05
+    },
+    "Support Vector Machine": {
+      "C": 10,
+      "kernel": "linear"
+    }
+  },
+  "sklearn_version": "1.9.1",
+  "random_state": 42
+}

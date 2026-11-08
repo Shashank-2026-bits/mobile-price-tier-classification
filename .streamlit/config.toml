@@ -1,0 +1,29 @@
+[theme]
+base = "light"
+primaryColor = "#0F6CBD"
+backgroundColor = "#F5F5F5"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#242424"
+linkColor = "#0F6CBD"
+font = "'Segoe UI Variable Text', 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif"
+headingFont = "'Segoe UI Variable Display', 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif"
+codeFont = "Consolas, 'Cascadia Mono', 'Courier New', monospace"
+baseFontSize = 14
+headingFontWeights = 600
+baseRadius = "4px"
+borderColor = "#E0E0E0"
+dataframeBorderColor = "#E0E0E0"
+showWidgetBorder = true
+chartCategoricalColors = ["#0F6CBD", "#038387", "#8764B8", "#CA5010", "#4F6BED", "#107C10", "#C239B3", "#986F0B", "#005B70", "#D13438"]
+
+[theme.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F5F5F5"
+textColor = "#242424"
+borderColor = "#E0E0E0"
+
+[client]
+toolbarMode = "minimal"
+
+[server]
+headless = true
