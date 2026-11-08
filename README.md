@@ -1,6 +1,6 @@
 # Mobile Price Tier Classification – ML Assignment 2
 
-Live app: `<STREAMLIT_APP_URL>`
+Live app: https://mobile-price-tier-classification-2026aj05972.streamlit.app/
 
 ## a. Problem Statement
 
